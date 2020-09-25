@@ -7,7 +7,7 @@ export const Tag = ({ children, filter }) => {
 
   return (
     <a
-      href="#"
+      href="/#"
       type="button"
       className={classnames({ selected: filter === visibilityFilter })}
       style={{ cursor: "pointer" }}

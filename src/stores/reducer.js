@@ -1,6 +1,6 @@
 import { uuid } from "./utils";
 export const reducer = (state, action) => {
-  const { id, text } = action.payload;
+  const { id, text } = action.payload || { id: undefined, text: undefined };
   const { todos, visibilityFilter } = state;
 
   switch (action.type) {

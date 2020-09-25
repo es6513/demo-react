@@ -6,16 +6,7 @@ import { TodoProvider } from "./context/TodoProvider";
 
 const initState = {
   todos: [
-    {
-      text: "React Hooks",
-      completed: false,
-      id: 0,
-    },
-    {
-      text: "Context",
-      completed: true,
-      id: 1,
-    },
+    
   ],
   visibilityFilter: "All",
 };
